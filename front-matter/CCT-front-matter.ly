@@ -58,7 +58,7 @@ front-matter = \markuplist {
              \general-align #Y #DOWN { \epsfile #X #55 #"/Users/tuckerjohnson/Documents/engraving/Commonplace-Common-Tones/front-matter/ccts-layout2.eps" }
              \vspace #1
              \override #'(line-width . 54)
-             \justify { Option 2 is unusual, but it offers an antiphonal experience. Orchestrational groups are separated int left and right sides of the stage, with the shared instruments (flute, tuba, and piano) in the middle. }
+             \justify { Option 2 is unusual, but it offers an antiphonal experience. Orchestrational groups are separated into left and right sides of the stage, with the shared instruments (flute, tuba, and piano) in the middle. }
          }
          \hspace #1
       }
