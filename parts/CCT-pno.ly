@@ -227,14 +227,14 @@ pnoMusictreb = \relative { \key c \major \numericTimeSignature
   R1*3/4 |%162
   R1*3/4 |%163
   R1*3/4 |%164
-  R1*3/4 |\bh %165
-  R1*3/4 |%166
-  R1*3/4 |%167
+  r8 b,16( a' \ottava #1 dis'8-.) \ottava #0 r8 r4 |\bh %165
+  f,16( b, g' b-.) r4 r4 |%166
+  \ottava #1 \offset Beam.positions #'(-2.6 . -2.6) b16_( f' \ottava #0 \change Staff = "p-down" \offset Beam.positions #'(+1.3 . +1.3) c,,,,8-.) \change Staff = "p-up" r4 r4 |%167
 
   \mark \markup { \box \number 168 }
 
   R1*3/4 |%168
-  R1*3/4 |%169
+  r4 r8 \ottava #1 ees''''8~ ees4 \ottava #0 |%169
   R1*3/4 |\bh %170
   R1*3/4 |%171
   R1*3/4 |%172
@@ -256,92 +256,92 @@ pnoMusictreb = \relative { \key c \major \numericTimeSignature
   R1*3/4 |%182
   R1*3/4 |%183
   R1*3/4 |%184
-  R1*3/4 |\bh %185
-  R1*3/4 |%186
+  r4 \ottava #1 d8-.\f r8 r8 a-. \ottava #0 |\bh %185
+  r16 b,,16-. \change Staff = "p-down" d,,8-. \change Staff = "p-up" r4 r4 |%186
   R1*3/4 |%187
-  R1*3/4 |%188
+  \ottava #1 b''''8-. \ottava #0 r8 r4 r4 |%188
 
   \mark \markup { \box \number 189 }
 
   R1*3/4 |%189
-  R1*3/4 |\bh %190
+  r4 r4 r8. \ottava #1 bes16-. \ottava #0 |\bh %190
   R1*3/4 |%191
-  R1*3/4 |%192
-  R1*3/4 |%193
+  r4 r4 s4 |%192
+  r8 b,,16( d) r8 e,16(\f fis) r4 |%193
   R1*3/4 |%194
-  R1*3/4 |\bh %195
+  \ottava #1 b''8.(\mf d16-.) \ottava #0 r4 r4 |\bh %195
 
   \mark \markup { \box \number 196 }
 
   R1*3/4 |%196
   R1*3/4 |%197
-  R1*3/4 |%198
-  R1*3/4 |%199
+  r4 r16 bes,,16-. d8-. r4 |%198
+  r4 \ottava #2 aes'''16-.\mf bes8.-. \ottava #0 r4 |%199
   R1*3/4 |\bh %200
   R1*3/4 |%201
-  R1*3/4 |%202
+  r16 \ottava #1 f8.~\p f2 \ottava #0 |%202
 
   \mark \markup { \box \number 203 }
 
   R1*3/4 |%203
   R1*3/4 |%204
-  R1*3/4 |\bh %205
-  R1*3/4 |%206
-  R1*3/4 |%207
-  R1*3/4 |%208
-  R1*3/4 |%209
+  r4 \ottava #1 d2\mp \ottava #0 |\bh %205
+  f,,,16(\f b,8 g'16-.) r8. c'16(\mf ees,,8 a'8-.) |%206
+  r4 r16 \ottava #1 bes'8.~\mp bes4 \ottava #0 |%207
+  r4 r4 r8. \ottava #1 e16(\mf |%208
+  b f'8.-.) \ottava #0 r4 r4 |%209
 
   \mark \markup { \box \number 210 }
 
   R1*3/4 |\bh %210
   R1*3/4 |%211
-  R1*3/4 |%212
-  R1*3/4 |%213
-  R1*3/4 |%214
-  R1*3/4 |\bh %215
-  R1*3/4 |%216
+  r4\< r16 \ottava #1 bes,16( des,8~ des8) ees'-.\mf \ottava #0 |%212
+  f,,,2. |%213
+  r4 r16 bes8.--\< c'8-. ees,-. |%214
+  f'-.\f r8 r4 r8. ees16~ |\bh %215
+  ees2. |%216
 
   \mark \markup { \box \number 217 }
 
   R1*3/4 |%217
-  R1*3/4 |%218
-  R1*3/4 |%219
-  R1*3/4 |\bh %220
-  R1*3/4 |%221
-  R1*3/4 |%222
-  R1*3/4 |%223
+  r4 r8. fis16~(\mp fis8 gis~ |%218
+  gis2.) |%219
+  r4 r4 r8 a,,8~(\< |\bh %220
+  a8 b8~ b8 e16 fis,-.)\mf r4 |%221
+  r4 cis''16( e,, g''8-.) r4  |%222
+  \ottava #1 b4~(\mp b8. f'16-.) \ottava #0 r4 |%223
 
   \mark \markup { \box \number 224 }
 
   R1*3/4 |%224
   R1*3/4 |\bh %225
-  R1*3/4 |%226
+  r4 r4 \ottava #1 d8(\mf\> ees) \ottava #0 |%226
   R1*3/4 |%227
   R1*3/4 |%228
   R1*3/4 |%229
-  R1*3/4 |\bh %230
+  r4 r4 \ottava #1 b4--\p \ottava #0 |\bh %230
 
   \mark \markup { \box \number 231 }
 
-  R1*3/4 |%231
+  r4 r8 a,8~ a4 |%231
   R1*3/4 |%232
-  R1*3/4 |%233
+  s4 r4 r4 |%233
   R1*3/4 |%234
   R1*3/4 |\bh %235
-  R1*3/4 |%236
+  f'2.\mp |%236
   R1*3/4 |%237
 
   \mark \markup { \box \number 238 }
 
-  R1*3/4 |%238
+  r4 \ottava #1 dis'2\p \ottava #0 |%238
   R1*3/4 |%239
   R1*3/4 |\bh %240
-  R1*3/4 |%241
-  R1*3/4 |%242
-  R1*3/4 |%243
-  R1*3/4 |%244
+  r4 \ottava #1 d2~ |%241
+  d8 \ottava #0 b,,16~(\p <b d>16~ <b d>2) |%242
+  r4 r8 \ottava #1 f'''8~(\mp\< f4 |%243
+  b,4~ b8. f16~ f8 g16-.)\mf \ottava #0 r16 |%244
 
-  R1*3/4 |%245
+  r4 r4 r4\fermata \bar "|." %245
 
 }
 
@@ -569,59 +569,59 @@ pnoMusicbass = \relative { \clef bass \key c \major \numericTimeSignature
   \mark \markup { \box \number 161 }
 
   \tmark
-  \time 3/4  R1*3/4 |%161
-  R1*3/4 |%162
-  R1*3/4 |%163
-  R1*3/4 |%164
+  \time 3/4 \ottava -1 b,,,2.~^\mp |%161
+  b2 \ottava #0 r4 |%162
+  b''16-.^\mf f'-. \ottava #-1 c,,8~ c8 \ottava #0 r8 r4 |%163
+  r16 b'''16( cis, g,-.) r4 r4 |%164
   R1*3/4 |\bh %165
   R1*3/4 |%166
-  R1*3/4 |%167
+  s4 r4 r4 |%167
 
   \mark \markup { \box \number 168 }
 
-  R1*3/4 |%168
-  R1*3/4 |%169
+  \ottava #-1 b,2^\mp \ottava #0 fis'8.^\< gis16~ |%168
+  gis16 b8 \ottava #-1 cis,16^\mf \ottava #0 r4 r4 |%169
   R1*3/4 |\bh %170
   R1*3/4 |%171
-  R1*3/4 |%172
-  R1*3/4 |%173
-  R1*3/4 |%174
+  r4 dis'2~^\mp |%172
+  dis4 cis4-- r4 |%173
+  r4 r4 r8 g''16_(^\mf bes |%174
 
   \mark \markup { \box \number 175 }
 
-  R1*3/4 |\bh %175
+  f,,2.) |\bh %175
   R1*3/4 |%176
-  R1*3/4 |%177
-  R1*3/4 |%178
+  r16 f''8.~ f2|%177
+  r4 r8. c,16~^\mf c4 |%178
   R1*3/4 |%179
   R1*3/4 |\bh %180
-  R1*3/4 |%181
+  r4 r8 a8~^\mf a4 |%181
 
   \mark \markup { \box \number 182 }
 
-  R1*3/4 |%182
-  R1*3/4 |%183
+  \ottava #-1 b,2.~^\mp |%182
+  b2 \ottava #0 r4 |%183
   R1*3/4 |%184
-  R1*3/4 |\bh %185
-  R1*3/4 |%186
+  r4 r8 e'8-. r4 |\bh %185
+  s4 r4 r4 |%186
   R1*3/4 |%187
-  R1*3/4 |%188
+  r8 c'8-. r4 r8 g'8-. |%188
 
   \mark \markup { \box \number 189 }
 
-  R1*3/4 |%189
+  \ottava #-1 b,,,-. \ottava #0 r8 r4 r4 |%189
   R1*3/4 |\bh %190
-  R1*3/4 |%191
-  R1*3/4 |%192
-  R1*3/4 |%193
-  R1*3/4 |%194
-  R1*3/4 |\bh %195
+  b''8-. r8 r4 r4 |%191
+  r4 r4 r16^\mf \offset Beam.positions #'(+2.5 . +2.5) fis,16( \change Staff = "p-up" a''' bes-.)  |%192
+  \change Staff = "p-down" R1*3/4 |%193
+  r4 \ottava #-1 cis,,,,16(^\mp e8.~ e4~ |%194
+  e4) \ottava #0 r4 r4 |\bh %195
 
   \mark \markup { \box \number 196 }
 
   R1*3/4 |%196
   R1*3/4 |%197
-  R1*3/4 |%198
+  r16 f''16-.^\f^\> ges-. aes-. r4 d,8-.^\mp r8 |%198
   R1*3/4 |%199
   R1*3/4 |\bh %200
   R1*3/4 |%201
@@ -629,27 +629,27 @@ pnoMusicbass = \relative { \clef bass \key c \major \numericTimeSignature
 
   \mark \markup { \box \number 203 }
 
-  R1*3/4 |%203
-  R1*3/4 |%204
-  R1*3/4 |\bh %205
+  \ottava #-1 <f,, b,>4^\mf \ottava #0 r16 g'16( e, bes'-.) r16 c'8. |%203
+  f,16( <b, g>8.~ 4) r4 |%204
+  b'16( f'8.-.) r4 r4 |\bh %205
   R1*3/4 |%206
   R1*3/4 |%207
   R1*3/4 |%208
-  R1*3/4 |%209
+  r4 r4 r8 g,16(^\mp e') |%209
 
   \mark \markup { \box \number 210 }
 
   R1*3/4 |\bh %210
   R1*3/4 |%211
-  R1*3/4 |%212
+  r16 f8( aes16-.) r4 r4 |%212
   R1*3/4 |%213
   R1*3/4 |%214
-  R1*3/4 |\bh %215
+  r8. bes,,16~^\p bes2 |\bh %215
   R1*3/4 |%216
 
   \mark \markup { \box \number 217 }
 
-  R1*3/4 |%217
+  \ottava #-1 b,8.(^\mf cis'16-.) \ottava #0 r4 r4 |%217
   R1*3/4 |%218
   R1*3/4 |%219
   R1*3/4 |\bh %220
@@ -659,34 +659,34 @@ pnoMusicbass = \relative { \clef bass \key c \major \numericTimeSignature
 
   \mark \markup { \box \number 224 }
 
-  R1*3/4 |%224
-  R1*3/4 |\bh %225
+  r4 r4 r8 d8~^\p |%224
+  d2 r4 |\bh %225
   R1*3/4 |%226
-  R1*3/4 |%227
-  R1*3/4 |%228
-  R1*3/4 |%229
+  r8.g16~ g2~ |%227
+  g2 c4~ |%228
+  c4~ c8. c,16~ c4 |%229
   R1*3/4 |\bh %230
 
   \mark \markup { \box \number 231 }
 
-  R1*3/4 |%231
-  R1*3/4 |%232
-  R1*3/4 |%233
+  r8 fis'8-.^\mp r4 r4 |%231
+  f,2. |%232
+  r16^\mf f'16_( \change Staff = "p-up" ges'' aes,-.) \change Staff = "p-down" r4 r4 |%233
   R1*3/4 |%234
   R1*3/4 |\bh %235
   R1*3/4 |%236
-  R1*3/4 |%237
+  r4 fis,16(^\mf gis a,8~ a8.) e'16( |%237
 
   \mark \markup { \box \number 238 }
 
-  R1*3/4 |%238
-  R1*3/4 |%239
-  R1*3/4 |\bh %240
-  R1*3/4 |%241
+  b,2.) |%238
+  r4 r8 \ottava #-1 dis,8~^\mp dis4~ |%239
+  dis2.~ |\bh %240
+  dis8 \ottava #0 r8 r4 r4 |%241
   R1*3/4 |%242
   R1*3/4 |%243
   R1*3/4 |%244
 
-  R1*3/4 \bar "|." %245
+  r4 r4 r4\fermata \bar "|." %245
 
 }

@@ -219,6 +219,11 @@
 	  	%\context { \Staff \RemoveEmptyStaves }
 	  	%\context { \Score \override VerticalAxisGroup.remove-first = ##t \override SystemStartBar.collapse-height = #1 }
 	}
-
 	}
+  \pageBreak
+  \markup { \null }
+  \pageBreak
+  \backcover
+  \pageBreak
+  \markup { \null }
 }

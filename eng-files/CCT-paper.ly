@@ -30,7 +30,7 @@
       \concat { \on-the-fly #(on-page 45) \oddfoot }
       \concat { \on-the-fly #(on-page 47) \oddfoot }
       \concat { \on-the-fly #(on-page 49) \oddfoot }
-      \concat { \on-the-fly #(on-page 51) \oddfoot }
+      \concat { \on-the-fly #(on-page 51) \finfoot }
     }  
   evenFooterMarkup = \markup {
       \concat { \on-the-fly #(on-page 2) \evfoot }

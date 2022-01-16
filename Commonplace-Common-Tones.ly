@@ -4,6 +4,8 @@
 \include "eng-files/CCT-variables.ly"
 \include "eng-files/CCT-paper.ly"
 \include "front-matter/CCT-p-notes.ly"
+\include "front-matter/CCT-bio.ly"
+\include "front-matter/CCT-back-cover.ly"
 \include "front-matter/CCT-outside-cover.ly"
 \include "front-matter/CCT-inside-cover.ly"
 \include "front-matter/CCT-front-matter.ly"

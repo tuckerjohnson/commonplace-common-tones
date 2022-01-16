@@ -47,7 +47,7 @@ front-matter = \markuplist {
           \hspace #1
           \column {
               \line { "option " \number 1 }
-              \general-align #Y #DOWN { \epsfile #X #55 #"/Users/tuckerjohnson/Documents/engraving/cct/front-matter/cct-layout1.eps" }
+              \general-align #Y #DOWN { \epsfile #X #55 #"/Users/tuckerjohnson/Documents/engraving/Commonplace-Common-Tones/front-matter/cct-layout1.eps" }
               \vspace #1
               \override #'(line-width . 54)
               \justify { Option 1 is a standard sinfonietta setup. If other pieces on the concert program are for the same or similar ensembles, this option may be the best choice }
@@ -55,7 +55,7 @@ front-matter = \markuplist {
          \hspace #1
          \column {
              \line { "option " \number 2 }
-             \general-align #Y #DOWN { \epsfile #X #55 #"/Users/tuckerjohnson/Documents/engraving/cct/front-matter/ccts-layout2.eps" }
+             \general-align #Y #DOWN { \epsfile #X #55 #"/Users/tuckerjohnson/Documents/engraving/Commonplace-Common-Tones/front-matter/ccts-layout2.eps" }
              \vspace #1
              \override #'(line-width . 54)
              \justify { Option 2 is unusual, but it offers an antiphonal experience. Orchestrational groups are separated int left and right sides of the stage, with the shared instruments (flute, tuba, and piano) in the middle. }

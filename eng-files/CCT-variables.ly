@@ -11,7 +11,7 @@ xdur = \markup { 8 minutes }
 xcr = \markup { Copyright Tucker Johnson MMXXI. All Rights Reserved }
 oddfoot = \markup { \fill-line { \null \center-column { \concat { " - " \fromproperty #'page:page-number-string " - " } \small { \xcomp } } \null } }
 evfoot = \markup { \fill-line { \null \center-column { \concat { " - " \fromproperty #'page:page-number-string " - " } \small { \xtitle } } \null } }
-
+finfoot = \markup { \fill-line { \null \center-column { \concat { " - " \fromproperty #'page:page-number-string " - " } \small \typewriter { "October 9, 2021 - Rochester, New York" } } \null } }
 
 %music
 tmark = \tempo "scattered, but as smooth as possible" 4 = 90
