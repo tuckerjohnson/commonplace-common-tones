@@ -65,8 +65,8 @@
   short-indent = 1.5\cm
   #(define fonts
 	  (set-global-fonts
-		  #:music "Haydn"
-		  #:brace "Haydn"
+		  #:music "haydn"
+		  #:brace "haydn"
 		  #:roman "Didot"
 		))
 }
