@@ -1,4 +1,4 @@
-\version "2.20.0" %commonplace common tones flute manuscript
+%Commonplace Common Tones project
 
 pnoMusictreb = \relative { \key c \major \numericTimeSignature
 
@@ -348,8 +348,8 @@ pnoMusictreb = \relative { \key c \major \numericTimeSignature
 
 
 pnoMusicbass = \relative { \clef bass \key c \major \numericTimeSignature
-  
-  \override Hairpin.to-barline = ##f 
+
+  \override Hairpin.to-barline = ##f
   \override DynamicLineSpanner.staff-padding = \phds
   \tmark
   \time 3/4

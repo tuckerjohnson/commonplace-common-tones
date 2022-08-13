@@ -1,5 +1,4 @@
-\version "2.20.0" %back cover
-
+%Commonplace Common Tones project
 backcover = \markuplist { \fill-line {
     \line { \null }
     \center-column {

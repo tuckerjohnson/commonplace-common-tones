@@ -1,5 +1,4 @@
-\version "2.20.0" %commonplace common tones flute manuscript
-
+%Commonplace Common Tones project
 
 flMusic = \relative { \key c \major \numericTimeSignature
   \override Hairpin.to-barline = ##f

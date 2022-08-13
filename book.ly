@@ -1,6 +1,6 @@
-\version "2.20.0" %commonplace Common Tones doc structure file
-
 %------document structure------
+%Commonplace Common Tones project
+
 \book {
     %\bookOutputSuffix "cutaway"
 		\outcover
@@ -71,8 +71,8 @@
 			fontSize = #-1
 			\override StaffSymbol.staff-space = #(magstep -1)
 			\override InstrumentName.self-alignment-X = #RIGHT
-			instrumentName = \markup { 
-          \right-column { "horn " 
+			instrumentName = \markup {
+          \right-column { "horn "
             \line { "in" \bold "F " }
           }
       }
@@ -212,10 +212,10 @@
 
 	>>
 	\layout {
-      \context { 
-          \Score 
+      \context {
+          \Score
           \override BarNumber.font-size = #1
-     } 
+     }
 	  	%\context { \Staff \RemoveEmptyStaves }
 	  	%\context { \Score \override VerticalAxisGroup.remove-first = ##t \override SystemStartBar.collapse-height = #1 }
 	}

@@ -1,6 +1,7 @@
-\version "2.20.0" %commonplace common tones flute manuscript
+%Commonplace Common Tones project
 
-hnMusic = \relative { \key c \major \numericTimeSignature
+tbnMusic = \relative { \clef bass \key c \major \numericTimeSignature
+
   \override Hairpin.to-barline = ##f
   \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
   \override DynamicLineSpanner.staff-padding = \ds
@@ -68,11 +69,11 @@ hnMusic = \relative { \key c \major \numericTimeSignature
 
   R1*3/4 |%43
   R1*3/4 |%44
-  r4 a'2~(\p\< |\bh %45
-  16 fis8.~\mp 8) r8 r4 |%46
+  R1*3/4 |\bh %45
+  R1*3/4 |%46
   R1*3/4 |%47
-  r4 r8 b8(\p cis4~ |%48
-  8) r8 r4 r4 |%49
+  R1*3/4 |%48
+  R1*3/4 |%49
 
   \mark \markup { \box \number 50 }
 
@@ -86,20 +87,20 @@ hnMusic = \relative { \key c \major \numericTimeSignature
 
   \mark \markup { \box \number 57 }
 
-  r4 r4 cis4~\p |%57
-  4 r4 r4 |%58
-  r4 r4 r8. e,16~\mp |%59
-  8 r8 r4 r4 |\bh %60
+  R1*3/4 |%57
+  R1*3/4 |%58
+  R1*3/4 |%59
+  R1*3/4 |\bh %60
   R1*3/4 |%61
-  r4 gis8.\mp b16~\< 4~ |%62
-  8\mf r8 r4 r4 |%63
+  R1*3/4 |%62
+  R1*3/4 |%63
 
   \mark \markup { \box \number 64 }
 
   R1*3/4 |%64
   R1*3/4 |\bh %65
-  R1*3/4 |%66
-  R1*3/4 |%67
+  r16 f8.~\p 2~ |%66
+  8 r8 r4 r4 |%67
   R1*3/4 |%68
   R1*3/4 |%69
   R1*3/4 |\bh %70
@@ -107,41 +108,41 @@ hnMusic = \relative { \key c \major \numericTimeSignature
   \mark \markup { \box \number 71 }
 
   R1*3/4 |%71
-  R1*3/4 |%72
+  r4 r8 c16->(\mf d16) r4 |%72
   R1*3/4 |%73
   R1*3/4 |%74
-  R1*3/4 |\bh %75
-  R1*3/4 |%76
-  R1*3/4 |%77
+  r8 bes'8--->\f r4 r4 |\bh %75
+  r4 r4 r8 e,8~\p |%76
+  2~ 8 r8 |%77
 
   \mark \markup { \box \number 78 }
 
   R1*3/4 |%78
   R1*3/4 |%79
   R1*3/4 |\bh %80
-  r4 r4 r8. e,16~\mp\< |%81
-  2.~ |%82
-  8\mf r8 r4 r4 |%83
-  r4 r16 a8.~\f 4 |%84
+  R1*3/4 |%81
+  R1*3/4 |%82
+  R1*3/4 |%83
+  r8. ges16\mf aes8 des8~ 4 |%84
   \time 2/4 R1*1/2^\markup { \fermata } \breathe \bar "||" \bh %85
 
   \mark \markup { \box \number 86 }
 
   \tmarktwo
-  f'2~->\f |%86
-  \time 3/4 2. |%87
-  \time 7/8 4-> b,4~-> 4.~ |%88
+  d2~->\f |%86
+  \time 3/4 8 r8 r4 r4 |%87
+  \time 7/8 e,4-> ees4~-> 4.~ |%88
   \time 3/4 8 r8 r4 r4 |%89
-  \time 7/8 ees,8[-> des8]-> r4 r4. |\bh %90
-  \time 4/4 e2.-> ees4~-> |%91
+  \time 7/8 des8[-> c8~->] 4~ 4. |\bh %90
+  \time 4/4 c2.-> d4~-> |%91
   \time 3/4 2. |%92
-  \time 5/8 4~-> 4 d8~-> |%93
-  \time 3/4 2. |\bh %94
-  \time 4/4 2~-> 8 g8~-> 4~ |%95
-  \time 3/4 8 r8 r4 r4 |%96
-  \time 4/4 bes4~-> 8 ges8~-> 2~ |%97
-  \time 3/4 2. |\bh %98
-  \time 2/4 2~->\>\fermata \bar "||" %99
+  \time 5/8 4~-> 4 ees8~-> |%93
+  \time 3/4 8 r8 r4 r4 |\bh %94
+  \time 4/4 a2~-> 8 ees'8~-> 4~ |%95
+  \time 3/4 2. |%96
+  \time 4/4 4~-> 8 bes'8~-> 2~ |%97
+  \time 3/4 8 r8 r4 r4 |\bh %98
+  \time 2/4 f,2~->\>\fermata \bar "||" %99
 
   \mark \markup { \box \number 100 }
 
@@ -159,8 +160,8 @@ hnMusic = \relative { \key c \major \numericTimeSignature
   R1*3/4 |%110
   R1*3/4 |%111
   R1*3/4 |%112
-  R1*3/4 |%113
-  R1*3/4 |\bh %114
+  b8([\p f8] ges8[ c]) r4 |%113
+  r4 r8 \autoBeamOff d8( aes) \autoBeamOn r8 |\bh %114
 
   \mark \markup { \box \number 115 }
 
@@ -174,28 +175,28 @@ hnMusic = \relative { \key c \major \numericTimeSignature
   R1*3/4 |%122
   R1*3/4 |%123
   R1*3/4 |%124
-  R1*3/4 |\bh %125
-  R1*3/4 |%126
-  fis8(\pp c8 cis8 g'8 e8 fis8 |%127
-  gis8 c,8 d8 a'8 dis,8 b'8) |%128
+  f8(\p c' fis, g cis bes |\bh %125
+  c d fis aes, ees' a,) |%126
+  b8([ f8] ges8[ c]) r4 |%127
+  r4 r8 \autoBeamOff d8( aes) \autoBeamOn r8 |%128
   R1*3/4 |%129
   R1*3/4 |\bh %130
 
   \mark \markup { \box \number 131 }
 
   \tmarkfour
-  r4 r8 e,8-^\f r4 |%131
-  r4 r8 ees8-^ r4 |%132
-  r4 r4 bes'8-^ r8 |%133
+  r4 r8 a,8-^\f r4 |%131
+  r4 r8 aes8-^ r4 |%132
+  r4 r4 ees'8-^ r8 |%133
   R1*3/4 |%134
   R1*3/4 |\bh %135
-  r4 r4 r8 e,8-^ |%136
-  r8 fis8-^ r4 r4 |%137
-  r8 cis'8-^ r4 r4 |%138
-  fis,8-^ r8 r4 r4 |%139
-  b8-^ r8 r4 r4 |\bh %140
-  r4 gis8-^ r8 r4 |%141
-  r4 cis8-^ r8 r4 |%142
+  r4 r4 r8 a,8-^ |%136
+  r8 b8-^ r4 r4 |%137
+  r8 fis'8-^ r4 r4  |%138
+  b,8-^ r8 r4 r4 |%139
+  e8-^ r8 r4 r4 |\bh %140
+  r4 cis8-^ r8 r4 |%141
+  r4 fis8-^ r8 r4 |%142
   R1*3/4 |%143
   R1*3/4 |%144
   r4 r4 r4\fermata \breathe \bar "||" \bh %145
@@ -203,29 +204,29 @@ hnMusic = \relative { \key c \major \numericTimeSignature
   \mark \markup { \box \number 146 }
 
   \tmarktwo
-  \time 3/8 e4.~->\f |%146
+  \time 3/8 ees4.~->\f |%146
   \time 3/4 2. |%147
   \time 7/8 4.-> c2~-> |%148
   \time 3/4 8 r8 r4 r4 |%149
-  \time 7/8 gis4-> fis4~-> 4.~ |\bh %150
+  \time 7/8 ees4-> des4~-> 4.~ |\bh %150
   \time 3/4 8 r8 r4 r4 |%151
-  \time 4/4 a8->[ g8~->] 8 r8 r2 |%152
-  \time 5/8 cis4~-> 4. |%153
-  \time 3/4 f8-> r8 r4 r4 |%154
-  \time 4/4 b,2.-> f4~-> |\bh %155
-  \time 3/4 8 r8 r4 r4 |%156
-  \time 2/4 e2-> |%157
-  \time 5/8 g4~-> 4.~ |%158
-  \time 3/4 8 r8 r4 r4 |%159
-  \time 4/4 aes2.~-> 4\fermata \breathe \bar "||" \bh %160
+  \time 4/4 c8-> des8~-> 2. |%152
+  \time 5/8 4~-> 4. |%153
+  \time 3/4 bes''8-> r8 r4 r4 |%154
+  \time 4/4 e,2.-> aes,4~-> |\bh %155
+  \time 3/4 2. |%156
+  \time 2/4 2-> |%157
+  \time 5/8 b4~-> 4.~ |%158
+  \time 3/4 2. |%159
+  \time 4/4 2.~-> 4\fermata \breathe \bar "||" \bh %160
 
   \mark \markup { \box \number 161 }
 
   \tmark
-  \time 3/4 R1*3/4 |%161
-  r16 d8.~\p d4 r4 |%162
-  R1*3/4 |%163
-  c2.|%164
+  \time 3/4  R1*3/4 |%161
+  r4 r4 r8 gis,8\p |%162
+  b2 r4 |%163
+  R1*3/4 |%164
   R1*3/4 |\bh %165
   R1*3/4 |%166
   R1*3/4 |%167
@@ -234,31 +235,31 @@ hnMusic = \relative { \key c \major \numericTimeSignature
 
   R1*3/4 |%168
   R1*3/4 |%169
-  R1*3/4 |\bh %170
-  R1*3/4 |%171
-  R1*3/4 |%172
-  R1*3/4 |%173
+  r4 r4 g'4~\p |\bh %170
+  g2 r4 |%171
+  r4 r4 r16 g,8.~\mp |%172
+  g4 r4 r4 |%173
   R1*3/4 |%174
 
   \mark \markup { \box \number 175 }
 
   R1*3/4 |\bh %175
-  r4 r4 r16 b,8.~\mp\> |%176
-  b2.~ |%177
-  b8\p r8 r4 r4 |%178
+  R1*3/4 |%176
+  R1*3/4 |%177
+  R1*3/4 |%178
   R1*3/4 |%179
   R1*3/4 |\bh %180
   R1*3/4 |%181
 
   \mark \markup { \box \number 182 }
 
-  R1*3/4 |%182
-  R1*3/4 |%183
-  R1*3/4 |%184
-  R1*3/4 |\bh %185
-  R1*3/4 |%186
-  R1*3/4 |%187
-  R1*3/4 |%188
+  r16 c8.~\p c2~ |%182
+  c8 r8 r4 r4 |%183
+  b8-.->\mp r8 r4 g16(\mf aes8.~ |%184
+  aes4) r4 r4 |\bh %185
+  r8 d8-.-> r4 r4 |%186
+  r4 r16 e8.~\mp e4 |%187
+  r8 c8-.-> r4 r4 |%188
 
   \mark \markup { \box \number 189 }
 
@@ -272,13 +273,13 @@ hnMusic = \relative { \key c \major \numericTimeSignature
 
   \mark \markup { \box \number 196 }
 
-  r8 cis8~\mp cis2 |%196
+  R1*3/4 |%196
   R1*3/4 |%197
-  r16 c16(\mf\> des ees~ ees2)\p |%198
+  R1*3/4 |%198
   R1*3/4 |%199
   R1*3/4 |\bh %200
-  r4 r4 r8 a8~\mp |%201
-  a2 r4 |%202
+  R1*3/4 |%201
+  R1*3/4 |%202
 
   \mark \markup { \box \number 203 }
 

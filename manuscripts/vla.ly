@@ -1,4 +1,4 @@
-\version "2.20.0" %commonplace common tones viola manuscript
+%Commonplace Common Tones project
 
 vlaMusic = \relative { \clef alto \key c \major \numericTimeSignature
 

@@ -1,4 +1,4 @@
-\version "2.20.0" %commonplace common tones bassoon manuscript
+%Commonplace Common Tones project
 
 bsnMusic = \relative { \clef bass \key c \major \numericTimeSignature
 

@@ -1,4 +1,4 @@
-\version "2.20.0" %commonplace common tones harp manuscript
+%Commonplace Common Tones project
 
 hpMusictreb = \relative { \key c \major \numericTimeSignature
 

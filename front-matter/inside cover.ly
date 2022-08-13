@@ -1,5 +1,4 @@
-\version "2.20.0" %inside cover
-
+%Commonplace Common Tones project
 cover =  \markuplist {
     \fill-line {
         \line { \null }

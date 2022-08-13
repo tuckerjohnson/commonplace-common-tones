@@ -1,4 +1,4 @@
-\version "2.20.0" %commonplace common tones flute manuscript
+%Commonplace Common Tones project
 
 bclMusic = \relative { \key c \major \numericTimeSignature
 

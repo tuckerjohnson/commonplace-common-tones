@@ -1,4 +1,4 @@
-\version "2.20.0" %commonplace common tones flute manuscript
+%Commonplace Common Tones project
 
 perctwoMusic = \relative { \key c \major \numericTimeSignature \set Staff.pedalSustainStyle = #'bracket
 

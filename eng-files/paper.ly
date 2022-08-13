@@ -1,12 +1,11 @@
-\version "2.20.0" %commonplace Common Tones paper file
-
+%Commonplace Common Tones project
 %------paper-block------
 \paper {
   first-page-number = -1
   print-page-number = ##f
 	oddHeaderMarkup = \markup \null
 	evenHeaderMarkup = \markup \null
-	oddFooterMarkup = \markup { 
+	oddFooterMarkup = \markup {
       \concat { \on-the-fly #(on-page 3) \fill-line { \xcr } }
       \concat { \on-the-fly #(on-page 5) \oddfoot }
       \concat { \on-the-fly #(on-page 7) \oddfoot }
@@ -31,7 +30,7 @@
       \concat { \on-the-fly #(on-page 47) \oddfoot }
       \concat { \on-the-fly #(on-page 49) \oddfoot }
       \concat { \on-the-fly #(on-page 51) \finfoot }
-    }  
+    }
   evenFooterMarkup = \markup {
       \concat { \on-the-fly #(on-page 2) \evfoot }
       \concat { \on-the-fly #(on-page 4) \evfoot }
@@ -67,6 +66,6 @@
 	  (set-global-fonts
 		  #:music "haydn"
 		  #:brace "haydn"
-		  #:roman "Didot"
+		  #:roman "Junicode"
 		))
 }
