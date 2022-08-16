@@ -31,7 +31,7 @@
 			instrumentName = "flute "
 			shortInstrumentName = "fl "
 		}
-		\flMusic
+		\include "manuscripts/fl.ly"
 
 			\new Staff = "Staff_oboe" \with {
 				fontSize = #-1
@@ -40,7 +40,8 @@
 				instrumentName = "oboe "
 				shortInstrumentName = "ob "
 			}
-			\obMusic
+		\include "manuscripts/ob.ly"
+
 
 			\new Staff = "Staff_bclarinet" \with {
 				fontSize = #-1
@@ -53,7 +54,7 @@
 			}
 			shortInstrumentName = "b cl  "
 		}
-		\bclMusic
+		\include "manuscripts/bcl.ly"
 
 		\new Staff = "Staff_bassoon" \with {
 			fontSize = #-1
@@ -62,7 +63,7 @@
 			instrumentName = "bassoon "
 			shortInstrumentName = "bsn "
 		}
-		\bsnMusic
+		\include "manuscripts/bsn.ly"
 		>>
 
 		\new StaffGroup = "brass" <<
@@ -72,13 +73,13 @@
 			\override StaffSymbol.staff-space = #(magstep -1)
 			\override InstrumentName.self-alignment-X = #RIGHT
 			instrumentName = \markup {
-          \right-column { "horn "
-            \line { "in" \bold "F " }
-          }
-      }
+			  \right-column { "horn "
+			  \line { "in" \bold "F " }
+			}
+			}
 			shortInstrumentName = "hn "
 		}
-		\hnMusic
+		\include "manuscripts/hn.ly"
 
 		\new Staff = "Staff_trumpet" \with {
 			fontSize = #-1
@@ -91,7 +92,7 @@
 			}
 			shortInstrumentName = "tpt "
 		}
-		\tptMusic
+		\include "manuscripts/tpt.ly"
 
 		\new Staff = "Staff_trombone" \with {
 			fontSize = #-1
@@ -100,7 +101,7 @@
 			instrumentName = "trombone "
 			shortInstrumentName = "tbn "
 		}
-		\tbnMusic
+		\include "manuscripts/tbn.ly"
 
 		\new Staff = "Staff_tuba" \with {
 			fontSize = #-1
@@ -109,7 +110,7 @@
 			instrumentName = "tuba "
 			shortInstrumentName = "tba "
 		}
-		\tbaMusic
+		\include "manuscripts/tba.ly"
 		>>
 
 		\new StaffGroup = "percussion" <<
@@ -121,7 +122,7 @@
 			instrumentName = \markup { "percussion" 1 " " }
 			shortInstrumentName = \markup { "perc" 1 " " }
 		}
-		\perconeMusic
+		\include "manuscripts/perc1.ly"
 
 		\new Staff = "Staff_percussion2" \with {
 			fontSize = #-1
@@ -130,37 +131,11 @@
 			instrumentName = \markup { "percussion" 2 " " }
 			shortInstrumentName = \markup { "perc" 2 " " }
 		}
-		\perctwoMusic
+		\include "manuscripts/perc2.ly"
 		>>
 
-		\new PianoStaff = "Staff_harp" \with {
-
-			fontSize = #-1
-			\override StaffSymbol.staff-space = #(magstep -1)
-			\override InstrumentName.self-alignment-X = #RIGHT
-			instrumentName = "harp "
-			shortInstrumentName = "hp "
-		}
-		<<
-		\new Staff = "h-up"
-		\hpMusictreb
-		\new Staff = "h-down"
-		\hpMusicbass
-		>>
-
-		\new PianoStaff = "Staff_piano" \with {
-			fontSize = #-1
-			\override StaffSymbol.staff-space = #(magstep -1)
-			\override InstrumentName.self-alignment-X = #RIGHT
-			instrumentName = "piano "
-			shortInstrumentName = "pf "
-		}
-		<<
-		\new Staff = "p-up"
-		\pnoMusictreb
-		\new Staff = "p-down"
-		\pnoMusicbass
-		>>
+		\include "manuscripts/hp.ly"
+		\include "manuscripts/pno.ly"
 
 		\new StaffGroup = "strings" <<
 
@@ -171,7 +146,7 @@
 			instrumentName = \markup { "violin" 1 " " }
 			shortInstrumentName = \markup { "vln" 1 " " }
 		}
-		\vlnoneMusic
+		\include "manuscripts/vln1.ly"
 
 		\new Staff = "Staff_violin2" \with {
 			fontSize = #-1
@@ -180,7 +155,7 @@
 			instrumentName = \markup { "violin" 2 " " }
 			shortInstrumentName = \markup { "vln" 2 " " }
 		}
-		\vlntwoMusic
+		\include "manuscripts/vln2.ly"
 
 		\new Staff = "Staff_viola" \with {
 			fontSize = #-1
@@ -189,7 +164,7 @@
 			instrumentName = "viola "
 			shortInstrumentName = "vla "
 		}
-		\vlaMusic
+		\include "manuscripts/vla.ly"
 
 		\new Staff = "Staff_cello" \with {
 			fontSize = #-1
@@ -198,7 +173,7 @@
 			instrumentName = "cello "
 			shortInstrumentName = "vc "
 		}
-		\vcMusic
+		\include "manuscripts/vc.ly"
 
 		\new Staff = "Staff_bass" \with {
 			fontSize = #-1
@@ -207,7 +182,7 @@
 			instrumentName = "bass "
 			shortInstrumentName = "db "
 		}
-		\dbMusic
+		\include "manuscripts/db.ly"
 		>>
 
 	>>

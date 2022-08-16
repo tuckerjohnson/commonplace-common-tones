@@ -1,6 +1,6 @@
 %Commonplace Common Tones project
 
-perctwoMusic = \relative { \key c \major \numericTimeSignature \set Staff.pedalSustainStyle = #'bracket
+\relative { \key c \major \numericTimeSignature \set Staff.pedalSustainStyle = #'bracket
 
   \override Hairpin.to-barline = ##f
   \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }

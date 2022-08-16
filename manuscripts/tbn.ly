@@ -1,6 +1,6 @@
 %Commonplace Common Tones project
 
-tbnMusic = \relative { \clef bass \key c \major \numericTimeSignature
+\relative { \clef bass \key c \major \numericTimeSignature
 
   \override Hairpin.to-barline = ##f
   \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }

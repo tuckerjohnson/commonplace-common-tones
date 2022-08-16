@@ -1,6 +1,14 @@
 %Commonplace Common Tones project
-
-pnoMusictreb = \relative { \key c \major \numericTimeSignature
+\new PianoStaff = "Staff_piano" \with {
+			fontSize = #-1
+			\override StaffSymbol.staff-space = #(magstep -1)
+			\override InstrumentName.self-alignment-X = #RIGHT
+			instrumentName = "piano "
+			shortInstrumentName = "pf "
+		}
+		<<
+		\new Staff = "p-up"
+\relative { \key c \major \numericTimeSignature
 
   \override Hairpin.to-barline = ##f
   \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
@@ -345,9 +353,8 @@ pnoMusictreb = \relative { \key c \major \numericTimeSignature
 
 }
 
-
-
-pnoMusicbass = \relative { \clef bass \key c \major \numericTimeSignature
+\new Staff = "p-down"
+\relative { \clef bass \key c \major \numericTimeSignature
 
   \override Hairpin.to-barline = ##f
   \override DynamicLineSpanner.staff-padding = \phds
@@ -690,3 +697,4 @@ pnoMusicbass = \relative { \clef bass \key c \major \numericTimeSignature
   r4 r4 r4\fermata \bar "|." %245
 
 }
+>>

@@ -1,6 +1,16 @@
 %Commonplace Common Tones project
 
-hpMusictreb = \relative { \key c \major \numericTimeSignature
+\new PianoStaff = "Staff_harp" \with {
+
+			fontSize = #-1
+			\override StaffSymbol.staff-space = #(magstep -1)
+			\override InstrumentName.self-alignment-X = #RIGHT
+			instrumentName = "harp "
+			shortInstrumentName = "hp "
+		}
+		<<
+		\new Staff = "h-up"
+  \relative { \key c \major \numericTimeSignature
 
   \override Hairpin.to-barline = ##f
   \override BreathingSign.text = \markup { \musicglyph #"scripts.caesura.straight" }
@@ -342,14 +352,10 @@ hpMusictreb = \relative { \key c \major \numericTimeSignature
   R1*3/4 |%244
 
   r4 r4 r4\fermata \bar "|." %245
-
 }
 
-
-
-
-
-hpMusicbass = \relative { \clef bass \key c \major \numericTimeSignature
+\new Staff = "h-down"
+\relative { \clef bass \key c \major \numericTimeSignature
 
   \override Hairpin.to-barline = ##f
   \override DynamicLineSpanner.staff-padding = \phds
@@ -690,5 +696,5 @@ hpMusicbass = \relative { \clef bass \key c \major \numericTimeSignature
   R1*3/4 |%244
 
   r4 r4 r4\fermata \bar "|." %245
-
 }
+>>
