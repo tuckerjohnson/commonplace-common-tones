@@ -17,12 +17,14 @@ outcover = \markuplist {
           }
         \right-column {
             \vspace #25
-            \line { \fontsize #10 \sans \underline \xtitle }
+            \line { \fontsize #10 \bold \underline \xtitle }
 	    \vspace #-0.35
-            \line { \fontsize #6 \xcomp }
+            \line { \fontsize #6 \sans \xcomp }
+	    \vspace #3
+	    \line { \fontsize #4 \sans \concat { "for " \xinst } }
       }
     }
-    \vspace #43.925
+    \vspace #41.025
     \fill-line {
       \line { \null }
       \line { \null }
@@ -59,10 +61,7 @@ outcover = \markuplist {
 	\vspace #-0.035
 	\override #'(height . 0.25) \draw-squiggle-line #1 #'(0 . 5) ##f
 	\vspace #-0.05
-	\hbracket \center-column {
-	  \line { \fontsize #4 \sans \bold "  umbel  " }
-	  \line { \fontsize #4 \sans \bold "  press  " }
-	}
+	  \line { \fontsize #4 \hbracket \sans \bold "  umbel press  " }
       }
       \line { \null }
     }

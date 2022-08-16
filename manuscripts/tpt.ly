@@ -338,7 +338,7 @@ tptMusic =  \relative { \key c \major \numericTimeSignature
   r8 d8(\mp e,2~ |\bh %240
   e8) r8 r4 r4 |%241
   r8 cis'16(\mf e f2~\> |%242
-  f2 f8)\p r8 |%243
+  f2~ f8)\p r8 |%243
   R1*3/4 |%244
 
   r4 r4 r4\fermata \bar "|." %245
