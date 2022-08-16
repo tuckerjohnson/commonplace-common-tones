@@ -67,5 +67,6 @@
 		  #:music "haydn"
 		  #:brace "haydn"
 		  #:roman "Junicode"
+		  #:sans "syne"
 		))
 }

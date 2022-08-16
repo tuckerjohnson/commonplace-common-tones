@@ -2,7 +2,7 @@
 %------variables------
 %texts
 xtitle = \markup { Commonplace Common Tones }
-xsub = \markup { for the Eastman Graduate Composers' Sinfonietta }
+xsub = \markup { for the eastman graduate composers' sinfonietta }
 xcomp = \markup { Tucker Johnson }
 xinst = \markup  { sinfonietta }
 xdur = \markup { 8 minutes }
