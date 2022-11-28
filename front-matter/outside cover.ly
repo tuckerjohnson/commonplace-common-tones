@@ -61,7 +61,7 @@ outcover = \markuplist {
 	\vspace #-0.035
 	\override #'(height . 0.25) \draw-squiggle-line #1 #'(0 . 5) ##f
 	\vspace #-0.05
-	  \line { \fontsize #4 \hbracket \sans \bold "  umbel press  " }
+	  \line { \concat { \fontsize #4 \hbracket \sans \bold "  umbel press  " \fontsize #0.05 { \char ##x00A9 } } }
       }
       \line { \null }
     }
