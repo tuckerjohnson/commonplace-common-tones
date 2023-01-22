@@ -1,7 +1,4 @@
-Hello!
-<br>
-<br>
-This repository contains the engraving project for my work <i>Commonplace Common Tones</i>. It is engraved using LilyPond, which is a flexible text-based engraving program. It is free to download from https://lilypond.org and is a really excellent piece of software. This version is not yet complete but I will publisha package as soon as it is complete.
+# Commonplace Common Tones
 
 ## about <i>Commonplace Common Tones</i> (2021)
 <i>Commonplace Common Tones</i> is a piece for sinfonietta composed in Rochester, New York. It was commisioned by the Eastman Graduate Composers' Sinfonietta in the first Fall semester of my graduate degree. A recording of the premiere is available in the "works" section on my [website](https://tuckerjohnson.github.io).
