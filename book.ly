@@ -1,4 +1,3 @@
-%------document structure------
 %Commonplace Common Tones project
 
 \book {

@@ -7,7 +7,7 @@
   oddHeaderMarkup = \markup { \tiny { "  " } }
   evenHeaderMarkup = \markup { \tiny { "  " } }
   oddFooterMarkup = \markup {
-    \concat { \if \on-page #3 \oddfoot }
+    \concat { \if \on-page #3 \fill-line { \null \xcr \null } }
     \concat { \if \on-page #5 \oddfoot }
     \concat { \if \on-page #7 \oddfoot }
     \concat { \if \on-page #11 \oddfoot }
@@ -32,7 +32,7 @@
   }
   evenFooterMarkup = \markup {
     \concat { \if \on-page #2 \evfoot }
-    \concat { \if \on-page #4 \fill-line { \null \xcr \null } }
+    \concat { \if \on-page #4 \evfoot }
     \concat { \if \on-page #6 \evfoot }
     \concat { \if \on-page #8 \evfoot }
     \concat { \if \on-page #10 \evfoot }

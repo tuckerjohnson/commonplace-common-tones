@@ -24,44 +24,16 @@ outcover = \markuplist {
 	    \line { \fontsize #4 \sans \concat { "for " \xinst } }
       }
     }
-    \vspace #41.025
+    \vspace #40
     \fill-line {
       \line { \null }
       \line { \null }
       \line { \null }
       \line { \null }
       \center-column {
-	\path #0.1
-	#'((moveto 0 0)
-	   (curveto 1 0.3 3.6 1 4.2 1.6)
-	   (moveto 0 0)
-	   (curveto -1 0.3 -3.6 1 -4.2 1.6)
-	   (moveto 0 0)
-	   (curveto 0.9 0.3 2.9 1 3.5 1.7)
-	   (moveto 0 0)
-	   (curveto -0.9 0.3 -2.9 1 -3.5 1.7)
-	   (moveto 0 0)
-	   (curveto 0.8 0.3 2.2 1 2.8 1.8)
-	   (moveto 0 0)
-	   (curveto -0.8 0.3 -2.2 1 -2.8 1.8)
-	   (moveto 0 0)
-	   (curveto 0.6 0.3 1.5 1 2.1 1.9)
-	   (moveto 0 0)
-	   (curveto -0.6 0.3 -1.5 1 -2.1 1.9)
-	   (moveto 0 0)
-	   (curveto 0.4 0.3 0.8 1 1.4 2)
-	   (moveto 0 0)
-	   (curveto -0.4 0.3 -0.8 1 -1.4 2)
-	   (moveto 0 0)
-	   (curveto 0.2 0.3 0.5 1 0.7 2.1)
-	   (moveto 0 0)
-	   (curveto -0.2 0.3 -0.5 1 -0.7 2.1)
-	   (moveto 0 0)
-	   (lineto 0 2.2))
-	\vspace #-0.035
-	\override #'(height . 0.25) \draw-squiggle-line #1 #'(0 . 5) ##f
-	\vspace #-0.05
-	\line { \concat { \fontsize #4 \hbracket \sans \bold "  umbel press  " \fontsize #0.05 { \char ##x00A9 } } }
+	\xumbel
+	\vspace #0.3
+	\line { \concat { \fontsize #4 \hbracket \sans \bold "  umbel press  " } }
       }
       \line { \null }
     }
