@@ -2,7 +2,7 @@
 
 \book {
     %\bookOutputSuffix "cutaway"
-		\outcover
+    \outcover
     \pageBreak
     \markup { \null }
     \pageBreak
